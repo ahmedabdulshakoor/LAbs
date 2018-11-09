@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flexbox</title>
+    <style>
+       
+       section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size:50px;
+            flex-wrap: wrap;
+        }
+
+    .one{
+        background-color: red;
+        flex-basis: 100px;
+        flex-grow: 1;
+    }
+
+    .two{
+        background-color: green;
+        flex-basis: 50px;
+        flex-grow: 1;
+    }
+    .three{
+        background-color: blue;
+        flex-basis: 50px;
+        flex-grow: 1;
+    }
+    
+    </style>
+</head>
+<body>
+    <section>
+            <div class="one">1</div>
+            <div class="two">2</div>
+            <div class="three">3</div>
+    </section>
+</body>
+</html>

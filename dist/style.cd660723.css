@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: auto;
+
+}
+    
+
+#content {
+display: flex;
+}
+
+
+#content #recent_link {
+flex-grow: 2;
+}
+
+
+#content #recent_link article{
+    display: flex; 
+   
+}
+
+
+#content #visited_link {
+    flex-grow: 1;
+    flex-basis: 400px;
+
+}
+
+article  div:nth-child(2){
+    padding: 0px 0px 0px 10px;
+    position: relative;
+}
+
+article {
+margin: 0px 0px 30px 0px ;
+}
+
+article h3{
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+article p{
+ 
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+    article time
+    {
+     color: blue;
+     position: absolute;
+     bottom: 0;
+     left: 10;
+    }
+
+
+
+#Onevisited_link {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+#Onevisited_link .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 1px;
+}
+
+/* Top left text */
+#Onevisited_link .top-left {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+/* Top right text */
+#Onevisited_link .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+#Onevisited_link .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+#Onevisited_link .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
